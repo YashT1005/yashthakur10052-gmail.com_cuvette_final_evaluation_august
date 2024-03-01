@@ -1,8 +1,5 @@
-const { init } = require("create-react-app/createReactApp");
 const Card = require("../models/Card");
 const User = require("../models/User");
-const { ObjectId } = require("mongodb");
-const mongoose = require("mongoose");
 
 exports.createCard = async (req, res) => {
     try {
